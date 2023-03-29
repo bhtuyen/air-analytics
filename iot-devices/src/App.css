@@ -1,0 +1,62 @@
+.App {
+    background-color: antiquewhite;
+    height: 100vh;
+}
+.device-manager {
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+    padding: 20px;
+}
+
+.device-item {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(161, 169, 136);
+    background-color: rgb(161, 169, 136);
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgb(161, 169, 136);
+}
+
+.device-position {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    justify-content: center;
+    border: 1px solid #6eb0ca;
+    background-color: #6eb0ca;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 600;
+    padding: 0 5px;
+}
+
+.device-name {
+    font-weight: 500;
+}
+
+.device-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    display: flex;
+    margin: 20px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 500;
+}
+
+span {
+    margin: 5px 2px;
+    text-align: center;
+    display: block;
+}

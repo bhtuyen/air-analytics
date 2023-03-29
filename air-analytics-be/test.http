@@ -1,0 +1,26 @@
+GET http://localhost:3000/api/devices
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiaWF0IjoxNjc2MzQwMTcxfQ.ecQZcVhqf2z1KIFH50l340CWblf48jN2u02gMftEmds
+
+###
+POST  http://localhost:3000/api/auth/login
+Content-Type: application/json
+
+{
+    "username": "duypro10x123",
+    "password": "20102001aA"
+}
+
+###
+GET http://localhost:5000/api/auth/profiles
+
+###
+PUT http://localhost:3000/api/devices/8
+Content-Type: application/json
+
+{   
+    "state": 0
+}
+
+###
+GET http://localhost:3000/api/devices
